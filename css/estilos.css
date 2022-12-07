@@ -197,3 +197,25 @@ header .menu-bar-pc .top-redes a {
   text-align: center;
   width: 25%;
 }
+
+/*NOSOTROS*/
+
+.main .nosotros {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main .nosotros .titulo h1{
+  font-size: 2rem;
+}
+
+.main .nosotros img{
+  margin-bottom: 20px;
+  width: 20rem;
+  padding: 1rem;
+  background-color: cyan;
+}
+
+.main .nosotros .titulo p{
+  margin-top: 20px;
+}
