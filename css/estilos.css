@@ -238,3 +238,22 @@ footer .bottom-redes a {
   padding: 0 0.5rem;
   color: blanchedalmond;
 }
+
+/*MEDIA QUERY*/
+
+@media all and (max-width: 600px){
+  .main .contacto .container {
+    flex-direction: column;
+    align-content: center;
+  }
+  .main .contacto .overlay .container .blurb {
+    width: 50%;
+  }
+  .main .productos .items {
+    flex-direction: column;
+  }
+  header .menu-bar-pc .menu-principal {
+    display: flex;
+    flex-direction: column;
+  }
+}
